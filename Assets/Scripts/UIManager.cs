@@ -1,18 +1,47 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject _mainMenu;
+    public GameObject _settingScreen;
+    public GameObject _informationScreen;
+    public GameObject _backButton;
+
+    private void Start()
     {
-        
+        _settingScreen.SetActive(false);
+        _backButton.SetActive(false);
+        _informationScreen.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void AugmentedReality()
     {
-        
+        SceneManager.LoadScene(1);
+    }
+
+    public void Settings()
+    {
+       
+    }
+
+    public void Information()
+    {
+
+    }
+
+    public void Quiz()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void Back()
+    {
+        if(_mainMenu.activeInHierarchy == true)
+        {
+
+        }
     }
 }
