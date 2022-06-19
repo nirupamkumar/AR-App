@@ -4,5 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/AR.unity
+    guid: 20aeffaabde4cd142afc3850f1a80b6a
+  - enabled: 1
+    path: Assets/Scenes/Quiz.unity
+    guid: 490f5460d71218140b7f35fb8cd11b51
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: ba1698ff3389e474d8b0257e8f3c38b7, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: ae463148bd1b8534abe026ea32aeb95d, type: 2}
