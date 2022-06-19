@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 626189748}
   - component: {fileID: 626189747}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Option1Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -475,7 +475,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -43}
+  m_AnchoredPosition: {x: -115, y: -111}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653101688
@@ -931,7 +931,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: -139}
+  m_AnchoredPosition: {x: -115, y: -245}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1045782782
@@ -1409,7 +1409,7 @@ GameObject:
   - component: {fileID: 1380507801}
   - component: {fileID: 1380507800}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Option3Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1554,7 +1554,7 @@ GameObject:
   - component: {fileID: 1404740669}
   - component: {fileID: 1404740668}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Option2Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1669,6 +1669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1452515579}
+  - component: {fileID: 1452515580}
   m_Layer: 5
   m_Name: Quiz
   m_TagString: Untagged
@@ -1701,6 +1702,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1452515580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452515578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e051ca860a618784189e37fb10a235ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions: {fileID: 11400000, guid: 973faf32c5e2caa41b53622c03e274c3, type: 2}
+  questionText: {fileID: 1457509377}
+  optionText1: {fileID: 626189747}
+  optionText2: {fileID: 1404740668}
+  optionText3: {fileID: 1380507800}
+  optionText4: {fileID: 1625737860}
 --- !u!1 &1457509375
 GameObject:
   m_ObjectHideFlags: 0
@@ -1792,7 +1811,7 @@ GameObject:
   - component: {fileID: 1625737861}
   - component: {fileID: 1625737860}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Option4Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1975,7 +1994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: 53}
+  m_AnchoredPosition: {x: -115, y: 12}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2021053194

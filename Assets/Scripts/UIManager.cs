@@ -24,12 +24,20 @@ public class UIManager : MonoBehaviour
 
     public void Settings()
     {
-       
+        _settingScreen.SetActive(true);
+        _backButton.SetActive(true);
+
+        _mainMenu.SetActive(false);
+        _informationScreen.SetActive(false);
     }
 
     public void Information()
     {
+        _informationScreen.SetActive(true);
+        _backButton.SetActive(true);
 
+        _mainMenu.SetActive(false);
+        _settingScreen.SetActive(false);
     }
 
     public void Quiz()
@@ -39,9 +47,10 @@ public class UIManager : MonoBehaviour
 
     public void Back()
     {
-        if(_mainMenu.activeInHierarchy == true)
-        {
+        _mainMenu.SetActive(true);
 
-        }
+        _backButton.SetActive(false);  
+        _settingScreen.SetActive(false);
+        _informationScreen.SetActive(false);
     }
 }

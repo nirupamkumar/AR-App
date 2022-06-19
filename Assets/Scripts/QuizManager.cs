@@ -13,7 +13,7 @@ public class QuizManager : MonoBehaviour
     public Text optionText3;
     public Text optionText4;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         questionText.text = questions.question;
