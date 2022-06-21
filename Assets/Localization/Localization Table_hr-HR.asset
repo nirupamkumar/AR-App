@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization Table_hr-HR
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: hr-HR
+  m_SharedData: {fileID: 11400000, guid: 119f4393d55635c4faf1cae38fa2b09a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3003229331456
+    m_Localized: "pro\u0161irena stvarnost"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3160452816896
+    m_Localized: postavke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3355676696576
+    m_Localized: informacija
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3512308785152
+    m_Localized: kviz
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
