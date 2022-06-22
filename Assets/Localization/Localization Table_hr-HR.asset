@@ -34,5 +34,25 @@ MonoBehaviour:
     m_Localized: kviz
     m_Metadata:
       m_Items: []
+  - m_Id: 514570304086016
+    m_Localized: koja je osaba na prednjoj strani novcanice od 500Kn?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515127525761024
+    m_Localized: koja je osaba na prednjoj strani novcanice of 20Kn?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515523094765568
+    m_Localized: Koja je osaba na prednjoj strani novcanice of 100Kn?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516659268804608
+    m_Localized: Pitanja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517347063357440
+    m_Localized: Glavni Izbornik
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

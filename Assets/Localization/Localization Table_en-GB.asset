@@ -34,5 +34,25 @@ MonoBehaviour:
     m_Localized: quiz
     m_Metadata:
       m_Items: []
+  - m_Id: 514570304086016
+    m_Localized: Which person is on the front of the 500kn banknote?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515127525761024
+    m_Localized: Which person is on the front of the 20Kn banknote?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515523094765568
+    m_Localized: Which person is on the front of the 100Kn banknote?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 516659268804608
+    m_Localized: Questions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 517347063357440
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
