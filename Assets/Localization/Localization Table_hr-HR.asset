@@ -54,5 +54,17 @@ MonoBehaviour:
     m_Localized: Glavni Izbornik
     m_Metadata:
       m_Items: []
+  - m_Id: 902266926850048
+    m_Localized: Ukupno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 902182071885824
+    m_Localized: Pogresni odgovori
+    m_Metadata:
+      m_Items: []
+  - m_Id: 902078820704256
+    m_Localized: Tocni odgovori
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
