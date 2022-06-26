@@ -2,21 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Localization;
+using UnityEngine.SceneManagement;
 
 public class Settings : MonoBehaviour
 {
-    public Toggle toggle;
 
-    public void ToggleSwitch()
+    public void MainMenu()
     {
-        if(!toggle.isOn)
-        {
-
-        }
-        else
-        {
-
-        }
+        SceneManager.LoadScene(0);
     }
 }

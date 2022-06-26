@@ -1,31 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
 {
-    public QuizQuestions questions;
-
+    public List<Questions> questions;
+    public List<Text> options;
     public Text questionText;
-    public Text optionText1;
-    public Text optionText2;
-    public Text optionText3;
-    public Text optionText4;
-
     
     void Start()
     {
-        questionText.text = questions.question;
-        optionText1.text = questions.option1;
-        optionText2.text = questions.option2;
-        optionText3.text = questions.option3;
-        optionText4.text = questions.option4;
+        
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        PopulateQuestion();
+    }
+
+    private void PopulateQuestion()
+    {
+        List<string> randomizedAnswers = new List<string>();
+
+        int index = Random.Range(0, questions.Count - 1);
+        Questions currentQuestion = questions[index];
+
+        questionText.text = currentQuestion.Question;
+        List<string> answers = new List<string>();
+        foreach (var answer in currentQuestion.Answers)
+        {
+            answers.Add(answer);
+        }
+
+        var random = new System.Random();
+
+        var randomizedList = answers.OrderBy(item => random.Next()).ToList();
+
+        for (int i = 0; i < randomizedList.Count; i++)
+        {
+            options[i].text = randomizedList[i]; 
+        }
     }
 }

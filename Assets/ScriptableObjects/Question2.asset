@@ -9,12 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be3d5ef29b10d654a9876b6042eabaad, type: 3}
+  m_Script: {fileID: 11500000, guid: 95ab5d0784c5a8143be65ff190c695a9, type: 3}
   m_Name: Question2
   m_EditorClassIdentifier: 
-  question: Which person is on the front of the 20Kn banknote?
-  option1: "Ban J. Jela\u010Di\u0107"
-  option2: Slavoljub Penkala
-  option3: "Ru\u0111er Bo\u0161kovi\u0107"
-  option4: Ivo Sanader
-  answer: 
+  Question: Which person is on the front of the 20Kn banknote?
+  Answers:
+  - "Ban J. Jela\u010Di\u0107"
+  - Slavoljub Penkala
+  - "Ru\u0111er Bo\u0161kovi\u0107"
+  - Ivo Sanader
+  CorrectAnswerIndex: 0
