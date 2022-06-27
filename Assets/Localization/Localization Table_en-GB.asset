@@ -66,5 +66,13 @@ MonoBehaviour:
     m_Localized: Total
     m_Metadata:
       m_Items: []
+  - m_Id: 2022174540619776
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2022243822133248
+    m_Localized: Croatian
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

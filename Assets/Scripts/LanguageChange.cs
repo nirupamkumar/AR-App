@@ -8,13 +8,17 @@ public class LanguageChange : MonoBehaviour
 {
     public Toggle toggle;
 
+    private void Start()
+    {
+        toggle = GetComponent<Toggle>();
+    }
+
     public void LanguageToggleSwitch(int localId)
     {
-        if (toggle == true)
-        {
+        if (toggle.isOn == true)
             StartCoroutine(SetLocal(localId));
-        }
-
+        else
+            StartCoroutine(SetLocal(0));
     }
 
     IEnumerator SetLocal(int localID)
