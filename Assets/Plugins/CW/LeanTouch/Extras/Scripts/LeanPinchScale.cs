@@ -32,6 +32,8 @@ namespace Lean.Touch
 		[SerializeField]
 		private Vector3 remainingScale;
 
+		
+
 		/// <summary>If you've set Use to ManuallyAddedFingers, then you can call this method to manually add a finger.</summary>
 		public void AddFinger(LeanFinger finger)
 		{

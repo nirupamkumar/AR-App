@@ -12,12 +12,12 @@ public class QuizManager : MonoBehaviour
     
     void Start()
     {
-        
+        PopulateQuestion();
     }
 
     void Update()
     {
-        PopulateQuestion();
+        
     }
 
     private void PopulateQuestion()

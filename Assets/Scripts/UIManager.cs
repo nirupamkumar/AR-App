@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+        _mainMenu.SetActive(true);
         _settingScreen.SetActive(false);
         _backButton.SetActive(false);
         _informationScreen.SetActive(false);
