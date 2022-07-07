@@ -71,6 +71,10 @@ MonoBehaviour:
     m_Key: key_croatian
     m_Metadata:
       m_Items: []
+  - m_Id: 5942009225994240
+    m_Key: key_summary
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

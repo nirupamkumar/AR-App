@@ -3,16 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class QuizManager : MonoBehaviour
 {
     public List<Questions> questions;
-    public List<Text> options;
-    public Text questionText;
-    
+    public List<TextMeshProUGUI> _options;
+    public TextMeshProUGUI _questionText;
+
+    public Queue<Questions> questionsQueue;
+
+    public GameObject _summary;
+
+    //public List<Text> options;
+    //public Text questionText;
+
     void Start()
     {
-        PopulateQuestion();
+        //PopulateQuestion();
     }
 
     void Update()
@@ -20,7 +28,7 @@ public class QuizManager : MonoBehaviour
         
     }
 
-    private void PopulateQuestion()
+    /*private void PopulateQuestion()
     {
         List<string> randomizedAnswers = new List<string>();
 
@@ -42,5 +50,5 @@ public class QuizManager : MonoBehaviour
         {
             options[i].text = randomizedList[i]; 
         }
-    }
+    }*/
 }

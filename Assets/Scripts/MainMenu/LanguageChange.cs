@@ -11,6 +11,8 @@ public class LanguageChange : MonoBehaviour
     private void Start()
     {
         toggle = GetComponent<Toggle>();
+     
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     public void LanguageToggleSwitch(int localId)

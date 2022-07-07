@@ -74,5 +74,9 @@ MonoBehaviour:
     m_Localized: Croatian
     m_Metadata:
       m_Items: []
+  - m_Id: 5942009225994240
+    m_Localized: Summary
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
