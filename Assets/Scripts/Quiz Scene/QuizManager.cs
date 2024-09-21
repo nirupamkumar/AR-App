@@ -20,7 +20,7 @@ public class QuizManager : MonoBehaviour
 
     void Start()
     {
-        //PopulateQuestion();
+        PopulateQuestion();
     }
 
     void Update()
@@ -28,14 +28,14 @@ public class QuizManager : MonoBehaviour
         
     }
 
-    /*private void PopulateQuestion()
+    private void PopulateQuestion()
     {
         List<string> randomizedAnswers = new List<string>();
 
         int index = Random.Range(0, questions.Count - 1);
         Questions currentQuestion = questions[index];
 
-        questionText.text = currentQuestion.Question;
+        _questionText.text = currentQuestion.Question;
         List<string> answers = new List<string>();
         foreach (var answer in currentQuestion.Answers)
         {
@@ -48,7 +48,7 @@ public class QuizManager : MonoBehaviour
 
         for (int i = 0; i < randomizedList.Count; i++)
         {
-            options[i].text = randomizedList[i]; 
+            _options[i].text = randomizedList[i]; 
         }
-    }*/
+    }
 }
